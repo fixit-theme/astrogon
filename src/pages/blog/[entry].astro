@@ -7,7 +7,8 @@ import similerItems from "@lib/similarItems";
 
 export async function getStaticPaths() {
   const entries = (await getEntries("blog", sortByDate)) as BlogEntry[];
-  const paths = entries.map((entry) => ({
+  const singleSegment = entries.filter((entry) => !entry.id.includes("/"));
+  const paths = singleSegment.map((entry) => ({
     params: {
       entry: entry.id,
     },

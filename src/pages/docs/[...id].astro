@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 
     if (segments.length === 1) {
       return {
-        params: { id: segments[0] },
+        params: { id: entry.id },
         props: { entry, isGroup: true },
       };
     } else if (segments.length === 2) {
