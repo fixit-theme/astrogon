@@ -12,7 +12,7 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://janedoe.com",
+  site: "https://geekswg.js.cool",
   base: "/",
   trailingSlash: "ignore",
   prefetch: {
@@ -28,7 +28,7 @@ export default defineConfig({
   }), mdx()],
   markdown: {
     remarkPlugins: [remarkToc, [remarkCollapse, {
-      test: "Table of contents"
+      test: "Table of contents 目录"
     }], remarkMath],
     rehypePlugins: [[rehypeKatex, {}]],
     shikiConfig: {

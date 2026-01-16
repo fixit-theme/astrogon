@@ -1,8 +1,16 @@
 ---
-title: Hey, I'm Jane Doe!
+title: Hey, I'm geekswg!
 description: this is meta description
-image: "@assets/profile/jane-doe.jpg"
+image: "@assets/imgs/avatar.webp"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+
+## About Me
+
+一名混迹于互联网江湖的`90后`程序员，喜欢折腾各种技术，热衷于分享和记录。
+
+## About This Blog
+
+这是我使用 Astro 创建的个人博客，主要记录我在技术领域的学习和分享。
+
