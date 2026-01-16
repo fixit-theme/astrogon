@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "include": [
+    "/_server-islands/*"
+  ],
+  "exclude": [
+    "/",
+    "/_astro/*",
+    "/.assetsignore",
+    "/.htaccess",
+    "/CNAME",
+    "/robots.txt",
+    "/site.webmanifest",
+    "/favicon/*",
+    "/fonts/*",
+    "/404",
+    "/about",
+    "/authors/*",
+    "/blog/*",
+    "/docs/*",
+    "/index-cards",
+    "/poetry/*",
+    "/portfolio",
+    "/recipes/*",
+    "/search",
+    "/terms"
+  ]
+}
