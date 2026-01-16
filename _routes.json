@@ -8,7 +8,6 @@
     "/_astro/*",
     "/.assetsignore",
     "/.htaccess",
-    "/CNAME",
     "/robots.txt",
     "/site.webmanifest",
     "/favicon/*",
